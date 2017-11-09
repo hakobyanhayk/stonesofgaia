@@ -41,11 +41,11 @@ function SocialLine()
 			}
 			else if(self.stoneLine[i] == 13)
 			{
-				stone.CreateWithLink("https://plus.google.com/118398814346307397097");
+				stone.CreateWithLink("https://twitter.com/StonesOfGaia");
 			}
 			else if(self.stoneLine[i] == 14)
-			{
-				stone.CreateWithLink("https://twitter.com/StonesOfGaia");
+			{				
+				stone.CreateWithLink("https://plus.google.com/118398814346307397097");
 			}
 			else
 			{

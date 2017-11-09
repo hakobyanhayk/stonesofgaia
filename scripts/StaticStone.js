@@ -48,9 +48,10 @@ function StaticStone(x,y,imageName,parentDiv, divWidth)
 
 									var a = $("<a>").appendTo(this.stoneDiv);	
 									a.attr("href",link);
+									a.attr("target","_blank");	
 
 									var img = $("<img>").appendTo(a);	
-									img.attr("src","images/stones/" + imageName);											
+									img.attr("src","images/stones/" + imageName);															
 									img.attr("style","width: 100%;height: 100%;");								
 									
 								}
