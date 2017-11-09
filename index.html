@@ -98,7 +98,7 @@
         End Fixed Navigation
         ==================================== -->
 		
-		<!-->
+		<!--
         Store
         ==================================== -->
 		
@@ -107,13 +107,13 @@
 				<div class="row">
 				
 					<div class="col-md-6 col-sm-12">						
-						<img src="images/mobile_device.png" style="width: 100%; height: auto; padding: 5% 5%;">						
+						<img src="images/mobile_device.png" id ="store-img">						
 					</div>
 					
 					<!-- store description -->
 
 					<div class="col-md-6 col-sm-12">
-						<div class="col-xs-12 wow fadeInLeft" data-wow-duration="500ms" style="padding-top: 7%; margin:2px ;padding-right: 10%;">
+						<div class="col-xs-12 wow fadeInLeft" data-wow-duration="500ms" id="store-text">
 							<h1>
 								<strong>Stones Of Gaia</strong>
 							</h1>
@@ -130,13 +130,13 @@
 						
 						<div class="col-lg-4 col-md-6 col-sm-3 col-xs-6 wow fadeInLeft"  data-wow-duration="600ms" >																				
 							<a href="https://play.google.com/store" >
-								<img src="images/play_store_button.jpg" style="margin: 2px; width:100%; height: auto;">	
+								<img src="images/play_store_button.jpg" class="store-btn">	
 							</a>
 						</div>
 							
 						<div class="col-lg-4 col-md-6 col-sm-3 col-xs-6 wow fadeInLeft"  data-wow-duration="700ms" >
 							<a href="https://www.appstore.com/" >
-								<img src="images/app_store_button.jpg" style="margin: 2px; width:100%; height: auto;">	
+								<img src="images/app_store_button.jpg" class="store-btn">	
 							</a> 
 						</div>							
 						
@@ -155,7 +155,7 @@
 		 <!--
         Game Field
         ==================================== -->
-		<div class = "container-fluid" id="game_field_parent" style="margin-top: 0px; position: relative">
+		<div class = "container-fluid" id="game_field_parent">
 			<div class = "row">
 				<div id="game_field" >
 			
@@ -172,8 +172,8 @@
 				<div class="row">
 
 					<!-- service item -->
-							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight" data-wow-duration="500ms" style="text-align: center; margin-top: 3%;">
-								<p style="margin-top: 2%;">     
+							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight story-text" data-wow-duration="500ms">
+								<p>     
 									Now i will tell you a story from the past</br>
 									A Forgotten Tale, Buried by time and dust</br>
 									Only Shadows are Wandering there,</br>
@@ -186,16 +186,16 @@
 								</p>
 							</div>
 
-							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight" data-wow-duration="600ms" style="text-align: center; margin-top: 3%;">
-									<p style="margin-top: 2%;">   
-											<h4>
-										<img src="images/icon.png" style="position: relative; width: 180px; height: 180px;">
+							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight story-text" data-wow-duration="600ms" >
+								<p>   
+									<h4>
+										<img src="images/icon.png" class="story-icon">
 									</h4>
-									</p>
+								</p>
 							</div>
 							
-							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight" data-wow-duration="700ms" style="text-align: center; margin-top: 3%;">
-								<p style="margin-top: 2%;">     
+							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight story-text" data-wow-duration="700ms">
+								<p>     
 									Behind Cold Mountains and deep hollows,</br>
 									through gloomy forests full of sorrows</br>
 									There was magical land beneath the sun</br>
@@ -208,8 +208,8 @@
 							</br>
 							</div>
 				
-								<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight" data-wow-duration="800ms" style="text-align: center; margin-top: 3%;">
-								<p style="margin-top: 2%;">
+								<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight story-text" data-wow-duration="800ms">
+								<p>
 									Time flew, nothing stood the same</br>
 									Darkest power rose, spreading  plague and pain</br>
 									Destroying everything with its black flame</br>
@@ -221,8 +221,8 @@
 									No life, No light, in search for blood and sanity</br>
 								</p>
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight" data-wow-duration="900ms" style="text-align: center; margin-top: 3%;">
-								<p style="margin-top: 2%;">
+							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight story-text" data-wow-duration="900ms">
+								<p>
 									Unholy spirit everywhere, nor any place to turn away,</br>
 									All around turned darker and decayed </br>
 									But only kingdom of Gaia stayed</br>
@@ -231,11 +231,11 @@
 									Where the fire and the darkness lied</br>
 									A Creature with ten flamy eyes, watching through thousand miles</br>
 									To find four stones of Gaia, and live the kingdom in fire</br>
-								
+								</br>
 								</p>
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight" data-wow-duration="1000ms" style="text-align: center; margin-top: 3%;">
-								<p style="margin-top: 2%;">
+							<div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight story-text" data-wow-duration="1000ms">
+								<p>
 									After many days of severe war</br>
 									Fighting with the dragon through fire and horror</br>
 									Everything ruined, nothing left to die for</br>
@@ -244,12 +244,17 @@
 									And flied back to the dark towers </br>
 									To keep the stones far from folks</br>
 									Behind the huge doors with thousand locks</br>
-									</br>
-									No one could get there</br>
-									Nobody had power here</br>
+								</br>
 								</p>
 							
 					</div>
+					<div class="col-xs-12 wow fadeInRight story-text" data-wow-duration="1100ms">
+						<p>								
+							No one could get there</br>
+							Nobody had power here</br>
+						</p>
+					
+			</div>
 					<!-- end service item -->
 						
 				</div>
@@ -273,22 +278,23 @@
 						<div class="carousel-inner" role="listbox">
 							 <div class="item active">
 								<div>								
-									<img class="d-block img-fluid col-sm-6 col-xs-12" src="images/screenshot/item-1.jpg" alt="First slide" style="padding: 1px 1px;">					
-									<img class="d-block img-fluid col-sm-6 col-xs-12" src="images/screenshot/item-2.jpg" alt="First slide" style="padding: 1px 1px;">		
+									<img class="d-block img-fluid col-sm-6 col-xs-12 screenshot-img" src="images/screenshot/item-1.jpg" alt="First slide">					
+									<img class="d-block img-fluid col-sm-6 col-xs-12 screenshot-img" src="images/screenshot/item-2.jpg" alt="First slide">		
 								</div>
 							</div>
 							 <div class="item">
 								<div>								
-									<img class="d-block img-fluid col-sm-6 col-xs-12" src="images/screenshot/item-3.jpg" alt="Second slide" style="padding: 1px 1px;">					
-									<img class="d-block img-fluid col-sm-6 col-xs-12" src="images/screenshot/item-1.jpg" alt="Second slide" style="padding: 1px 1px;">		
+									<img class="d-block img-fluid col-sm-6 col-xs-12 screenshot-img" src="images/screenshot/item-3.jpg" alt="Second slide">					
+									<img class="d-block img-fluid col-sm-6 col-xs-12 screenshot-img" src="images/screenshot/item-4.jpg" alt="Second slide">		
 								</div>
 							</div>
 							 <div class="item">
 								<div>								
-									<img class="d-block img-fluid col-sm-6 col-xs-12" src="images/screenshot/item-2.jpg" alt="Third slide" style="padding: 1px 1px;">					
-									<img class="d-block img-fluid col-sm-6 col-xs-12" src="images/screenshot/item-3.jpg" alt="Third slide" style="padding: 1px 1px;">		
+									<img class="d-block img-fluid col-sm-6 col-xs-12 screenshot-img" src="images/screenshot/item-5.jpg" alt="Third slide">					
+									<img class="d-block img-fluid col-sm-6 col-xs-12 screenshot-img" src="images/screenshot/item-6.jpg" alt="Third slide">		
 								</div>
 							</div>
+							
 						</div>
 						
 						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -318,16 +324,16 @@
 				<div class="row">
 		
 					<!-- single member -->
-					<figure class="team-member col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="600ms" data-wow-delay="400ms">
+					<figure class="team-member col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="member-thumb">
 							<img src="images/team/member_01.png" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
+							<!--<figcaption class="overlay">
 								<ul class="social-links text-center">
-									<li><a href="https://twitter.com/StonesOfGaia"><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href="https://www.facebook.com/StonesOfGaia/"><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href="https://plus.google.com/118398814346307397097"><i class="fa fa-google-plus fa-lg"></i></a></li>
+									<li><a href="https://twitter.com/StonesOfGaia" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="https://www.facebook.com/StonesOfGaia/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+									<li><a href="https://plus.google.com/118398814346307397097" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a></li>
 								</ul>
-							</figcaption>
+							</figcaption>-->
 						</div>
 						<h4>Hayk Hakobyan</h4>
 						<span>Lead Developer</span>
@@ -335,18 +341,18 @@
 					<!-- end single member -->
 					
 					<!-- single member -->
-					<figure class="team-member col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="600ms" data-wow-delay="800ms">
+					<figure class="team-member col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="member-thumb">
 						
 							<img src="images/team/member_02.png" alt="Team Member" class="img-responsive">
 							
-							<figcaption class="overlay">
+							<!--<figcaption class="overlay">
 								<ul class="social-links text-center">
-									<li><a href="https://twitter.com/StonesOfGaia"><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href="https://www.facebook.com/StonesOfGaia/"><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href="https://plus.google.com/118398814346307397097"><i class="fa fa-google-plus fa-lg"></i></a></li>
+									<li><a href="https://twitter.com/StonesOfGaia" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+								    <li><a href="https://www.facebook.com/StonesOfGaia/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+									<li><a href="https://plus.google.com/118398814346307397097" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a></li>
 								</ul>
-							</figcaption>
+							</figcaption>-->
 						</div>
 						<h4>Vahagn Tarakhchyan</h4>
 						<span>Game Designer</span>
@@ -415,8 +421,8 @@
 		<!--
         Share
         ==================================== -->		
-		<section id="social" class="social" style="padding: 0px;">
-			<div class="container-fluid" id="social_field_parent" style="position: relative">
+		<section id="social" class="social">
+			<div class="container-fluid" id="social_field_parent">
 				<div class="row">
 					<div id="social_field" >
 			
